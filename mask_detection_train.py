@@ -116,33 +116,3 @@ model.fit(image_data_generator.flow(X_train,Y_train),steps_per_epoch=len(X_train
 # I saved the model in order not to rerun it and to test it on the image we got.
 
 model.save(path+"mask_detection_model.model",save_format="h5")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
